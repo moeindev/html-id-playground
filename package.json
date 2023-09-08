@@ -6,7 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "uninstall-from-local-verdaccio": "npm uninstall ng-html-id",
+    "install-from-local-verdaccio": " npm install --save-dev ng-html-id --registry http://localhost:4873",
+    "reinstall-locally": "npm run uninstall-from-local-verdaccio && npm run install-from-local-verdaccio",
+    "run-ng-html-tag": "npx ng-html-id"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +37,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "ng-html-id": "^1.0.0",
     "typescript": "~4.9.4"
   }
 }
