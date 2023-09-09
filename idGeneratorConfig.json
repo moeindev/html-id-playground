@@ -1,0 +1,9 @@
+{
+  "projectName": "my-awesome-project",
+  "elementSuffixes": {
+    "button": "btn",
+    "div": "container",
+    "input": "input",
+    "p-button": "btn"
+  }
+}
