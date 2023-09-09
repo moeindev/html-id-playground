@@ -10,7 +10,7 @@
     "uninstall-from-local-verdaccio": "npm uninstall ng-html-id",
     "install-from-local-verdaccio": " npm install --save-dev ng-html-id --registry http://localhost:4873",
     "reinstall-locally": "npm run uninstall-from-local-verdaccio && npm run install-from-local-verdaccio",
-    "run-ng-html-tag": "npx ng-html-id"
+    "run-ng-html-tag": "npx ng-html-id -C idGeneratorConfig.json"
   },
   "private": true,
   "dependencies": {
